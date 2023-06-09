@@ -21,6 +21,11 @@ alon:10|16|32:checksum:type=json
 * ":" doble punto: fuera de la data se usa para separar 
 * "=" fuera de la data se usa para indicar el valor del parametro 
 * "\n" salto de linea: si bien el formato de salto de linea es el de linux. podria tambien contener "\r\n"
+
+otros simbolos que aparecen solo en la documentacion es solo para indicar relevancia u opcionalidad como son
+* llaves {}: para denotar el contenido que podria ser texto mas descriptivo
+* barras | : para indicar opcionalidad
+* parentesis: para indicar mas detalle 
 ## filas
 la primera fila sera representada por el formato de **cabecera**
 la fila de cuerpo sera representada por la formato de **fila dato**
